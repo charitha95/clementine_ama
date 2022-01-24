@@ -17,9 +17,9 @@ const Start = ({ props }) => {
   return (
     <Intro>
       <h2>Want to read the AMA?</h2>
-      <Link to="../files/ama.pdf" target="_blank" href={() => false} download className="downbtn">
+      <a href="https://drive.google.com/uc?id=10RQNb0ZGf7aQ1Ho4ZGJ84MddfdTceFD9&export=download" target="_blank" download className="downbtn">
         Download
-      </Link>
+      </a>
       <h1>OR</h1>
       <h2 className="mar">Take the quiz.</h2>
       {/* <h4>Whenever, you want.</h4> */}
