@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/clementine_ama/static/css/main.b654b65d.chunk.css",
+    "main.js": "/clementine_ama/static/js/main.ebd29f25.chunk.js",
+    "main.js.map": "/clementine_ama/static/js/main.ebd29f25.chunk.js.map",
+    "runtime-main.js": "/clementine_ama/static/js/runtime-main.5b031118.js",
+    "runtime-main.js.map": "/clementine_ama/static/js/runtime-main.5b031118.js.map",
+    "static/js/2.3898687f.chunk.js": "/clementine_ama/static/js/2.3898687f.chunk.js",
+    "static/js/2.3898687f.chunk.js.map": "/clementine_ama/static/js/2.3898687f.chunk.js.map",
+    "static/js/3.0f0e9a75.chunk.js": "/clementine_ama/static/js/3.0f0e9a75.chunk.js",
+    "static/js/3.0f0e9a75.chunk.js.map": "/clementine_ama/static/js/3.0f0e9a75.chunk.js.map",
+    "index.html": "/clementine_ama/index.html",
+    "static/css/main.b654b65d.chunk.css.map": "/clementine_ama/static/css/main.b654b65d.chunk.css.map",
+    "static/js/2.3898687f.chunk.js.LICENSE.txt": "/clementine_ama/static/js/2.3898687f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/clementine_ama/static/media/Oswald-VariableFont_wght.7aae6336.ttf",
+    "static/media/trans.b6cd5f42.png": "/clementine_ama/static/media/trans.b6cd5f42.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b031118.js",
+    "static/js/2.3898687f.chunk.js",
+    "static/css/main.b654b65d.chunk.css",
+    "static/js/main.ebd29f25.chunk.js"
+  ]
+}
