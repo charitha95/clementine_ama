@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clementine_ama/static/css/main.b654b65d.chunk.css",
-    "main.js": "/clementine_ama/static/js/main.abc2ab8d.chunk.js",
-    "main.js.map": "/clementine_ama/static/js/main.abc2ab8d.chunk.js.map",
+    "main.js": "/clementine_ama/static/js/main.da95d1ff.chunk.js",
+    "main.js.map": "/clementine_ama/static/js/main.da95d1ff.chunk.js.map",
     "runtime-main.js": "/clementine_ama/static/js/runtime-main.5b031118.js",
     "runtime-main.js.map": "/clementine_ama/static/js/runtime-main.5b031118.js.map",
     "static/js/2.0971b71a.chunk.js": "/clementine_ama/static/js/2.0971b71a.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.5b031118.js",
     "static/js/2.0971b71a.chunk.js",
     "static/css/main.b654b65d.chunk.css",
-    "static/js/main.abc2ab8d.chunk.js"
+    "static/js/main.da95d1ff.chunk.js"
   ]
 }
