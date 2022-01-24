@@ -67,7 +67,7 @@ button {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -105,4 +105,33 @@ button {
   font-weight: 400;
   text-transform: uppercase;
   display: inline-block;
+}
+
+.answersList {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.answersList > div {
+  margin-bottom: 65px;
+}
+
+.butns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.butns > * {
+  margin-bottom: 15px;
+}
+
+.tttll {
+  margin-top: 0 !important;
+}
+.prefan{
+  color: white;
 }

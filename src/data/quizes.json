@@ -1,0 +1,103 @@
+[
+    {
+        "question": "1) [TEAM] - Who is the Founder and lead visionary of the project?",
+        "options": [
+            "Josh",
+            "Petrolad",
+            "Norman",
+            "Alex",
+            "Jonathan"
+        ],
+        "answer": "Norman"
+    },
+    {
+        "question": "2) [TEAM] - What is the role of Mr.'Alex'? ",
+        "options": [
+            "Blockchain Developer",
+            "Artist",
+            "Community Manager",
+            "Lead Writer",
+            "Founder"
+        ],
+        "answer": "Lead Writer"
+    },
+    {
+        "question": "3) [BACKGROUND] - Clementine is ",
+        "options": [
+            "an Artist",
+            "a Singer",
+            "a Gamer",
+            "a Dancer",
+            "None of the above"
+        ],
+        "answer": "an Artist"
+    },
+    {
+        "question": "4) [BACKGROUND] - Clementine draws",
+        "options": [
+            "sketches of animals",
+            "abstract arts",
+            "her nightmares and dreams",
+            "about her future",
+            "None of the above"
+        ],
+        "answer": "her nightmares and dreams"
+    },
+    {
+        "question": "5) [GAME] - Clementine's game is going to be a",
+        "options": [
+            "single player game",
+            "multiplayer, action packed game",
+            "just a card game",
+            "simple strategy game"
+        ],
+        "answer": "multiplayer, action packed game"
+    },
+    {
+        "question": "6) [GAME] - Game is going to be a ",
+        "options": [
+            "free to play game",
+            "subscription based",
+            "paid only"
+        ],
+        "answer": "free to play game"
+    },
+    {
+        "question": "7) [GAME] - In game Rebels better with ",
+        "options": [
+            "healing",
+            "weapons and at hand to hand combat",
+            "tracking enemies",
+            "defending"
+        ],
+        "answer": "weapons and at hand to hand combat"
+    },
+    {
+        "question": "8) [Token] - Do clementine NFTs will focus on Utilities ",
+        "options": [
+            "Nope",
+            "Yes, they do"
+        ],
+        "answer": "Yes, they do"
+    },
+    {
+        "question": "9) [Token] - How many number NFTs are going be of each character",
+        "options": [
+            "1",
+            "100",
+            "500",
+            "1000",
+            "None of the above"
+        ],
+        "answer": "500"
+    },
+    {
+        "question": "10) [General] - How creates the art",
+        "options": [
+            "A single guy",
+            "A freelance artist",
+            "30-40 individuals"
+        ],
+        "answer": "30-40 individuals"
+    }
+]

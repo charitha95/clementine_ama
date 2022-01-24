@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import axios from "axios";
 import GameOver from "./GameOver";
+import myData from '../data/quizes.json';
 
 const QuizWindow = styled.div`
   text-align: center;
@@ -54,30 +54,16 @@ const Quiz = () => {
   const [number, setNumber] = useState(0);
   const [pts, setPts] = useState(0);
 
-  const shuffle = (arr) => arr.sort(() => Math.random() - 0.5);
 
   const pickAnswer = (e) => {
     let userAnswer = e.target.outerText;
-
-    if (quiz[number].answer === userAnswer) setPts(pts + 1);
+    console.log(userAnswer);
+    if (quiz[number].answer.toUpperCase() === userAnswer) setPts(pts + 1);
     setNumber(number + 1);
   };
 
   useEffect(() => {
-    axios
-      .get(
-        "https://opentdb.com/api.php?amount=5&category=18&difficulty=easy"
-      )
-      .then((res) => {
-        setQuiz(
-          res.data.results.map((item) => ({
-            question: item.question,
-            options: shuffle([...item.incorrect_answers, item.correct_answer]),
-            answer: item.correct_answer,
-          }))
-        );
-      })
-      .catch((err) => console.error(err));
+    setQuiz(myData)
   }, []);
 
   return (
@@ -99,7 +85,7 @@ const Quiz = () => {
           </Options>
         </>
       )}
-      {number === 5 && <GameOver pts={pts} />}
+      {number === quiz.length && <GameOver num={quiz.length} pts={pts} quizes={quiz}  />}
     </QuizWindow>
   );
 };

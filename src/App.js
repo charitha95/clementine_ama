@@ -21,7 +21,10 @@ function App() {
         </p>
         <p>
           {" "}
-          ○ Previous fan art - <strong>here</strong>{" "}
+          ○ Previous fan art - <strong>
+            <a className="prefan" target="_blank" href="https://twitter.com/charithaGG/status/1484043131926749190">here</a>
+            
+          </strong>{" "}
         </p>
       </div>
     </div>
