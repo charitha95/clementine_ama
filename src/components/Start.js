@@ -4,13 +4,12 @@ import styled, { css } from "styled-components/macro";
 import Button from "./Button";
 
 const Intro = styled.div`
-  margin-top: 8em;
+  margin-top: 5em;
   text-align: center;
 `;
 
 const btnCSS = css``;
 
-const dnwBtn = css``;
 
 const Start = ({ props }) => {
   const startQuiz = () => props(true);
@@ -18,7 +17,7 @@ const Start = ({ props }) => {
   return (
     <Intro>
       <h2>Want to read the AMA?</h2>
-      <Link to="/files/ama.pdf" target="_blank" download className="downbtn">
+      <Link to="/files/ama.pdf" target="_blank" href="#" download className="downbtn">
         Download
       </Link>
       <h1>OR</h1>

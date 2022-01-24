@@ -6,7 +6,7 @@ import GameOver from "./GameOver";
 const QuizWindow = styled.div`
   text-align: center;
   font-size: clamp(20px, 2.5vw, 24px);
-  margin-top: 8em;
+  margin-top: 5em;
 `;
 
 const Options = styled.div`

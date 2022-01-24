@@ -12,11 +12,17 @@ function App() {
       <div className="quiz">
         {start ? <Quiz /> : <Start props={setStart} />}
       </div>
-      <img className="img-trans" src={clementine} />
+      <img className="img-trans" src={clementine} alt="clementside" />
 
       <div className="footer">
-        <p> ○ Developed by <strong>CharithaGG</strong> </p>
-        <p> ○ Previous fan art - <a><strong>here</strong></a>  </p>
+        <p>
+          {" "}
+          ○ Developed by <strong>CharithaGG</strong>{" "}
+        </p>
+        <p>
+          {" "}
+          ○ Previous fan art - <strong>here</strong>{" "}
+        </p>
       </div>
     </div>
   );
